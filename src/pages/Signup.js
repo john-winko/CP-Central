@@ -11,7 +11,6 @@ function Signup() {
 
     const doSignUp = (e) => {
         e.preventDefault()
-        console.log(e.target.password.value);
         if (e.target.password.value !== e.target.password2.value) {
             setErrorMessage("Passwords must match")
             return null
