@@ -27,7 +27,6 @@ yarn-error.log*
 # Created by https://www.gitignore.io
 
 ### OSX ###
-.DS_Store
 .AppleDouble
 .LSOverride
 
@@ -107,9 +106,7 @@ target/
 
 ### Django ###
 *.log
-*.pot
 *.pyc
-__pycache__/
 local_settings.py
 
 .env
@@ -117,3 +114,4 @@ db.sqlite3
 
 .vscode
 backup/
+.idea/
